@@ -1,0 +1,97 @@
+body{
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipes_container{
+    background-color: rgb(255, 255, 223);
+    height: 650px;
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    
+    /* Add Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.recipes_container a{
+    font-family: sans-serif;
+    color: rgb(122, 113, 102);
+    display: block;
+    font-size: 50px;
+    background-color: antiquewhite;
+    /* Remove margin-top since flexbox handles spacing */
+    padding:70px;
+    text-decoration: none;
+}
+
+.title{
+    color: rgb(241, 192, 127);
+    text-align: center;
+    font-size: 75px;
+}
+
+.recipes_container a:hover{
+    font-family: sans-serif;
+    color: rgb(94, 87, 78);
+    display: block;
+    font-size: 50px;
+    background-color: antiquewhite;
+    /* Remove margin-top since flexbox handles spacing */
+    padding:70px;
+    text-decoration: none;
+}
+
+.navbar{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    display: block;
+    font-size: 20px;
+    background-color:rgb(255, 255, 223);
+    /* Remove margin-top since flexbox handles spacing */
+    padding:5px;
+    text-decoration: none;
+}
+.navbar a{
+    font-family: sans-serif;
+    color: rgb(122, 113, 102);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    font-family: sans-serif;
+    color: rgb(94, 87, 78);
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 223);
+    color: rgb(122, 113, 102);
+    margin: 20px auto;
+    text-align: center;
+    
+    /* Add Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;}
+
+.container img{
+    margin: 0 auto;
+    border: 2px solid rgb(245, 238, 139);
+    width: 850px;
+    height: 600px;
+}
+
+.container li{
+    margin-top: 30px;
+}
